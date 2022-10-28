@@ -10,7 +10,7 @@ class Notepad(Tk):
         super().__init__()
         self.geometry('500x500')
         # self.resizable(0,0)
-        icon = PhotoImage(file='res/notepad.png')
+        icon = PhotoImage(file='notepad.png')
         self.iconphoto(False,icon)
         self.title('Notepad')
         head=Label(self,text='Developed by Siddharth Dyamgond',bg='black',fg='tomato',font='Helvicta 8 bold').pack(fill=X,side=BOTTOM)
